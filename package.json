@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "QASE_MODE=testops npx playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
-    "@types/node": "^20.14.8"
+    "@types/node": "^20.14.8",
+    "playwright-qase-reporter": "^2.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
