@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: Qase Tests
 on:
   workflow_dispatch:
     inputs:
