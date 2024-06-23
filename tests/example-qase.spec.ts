@@ -23,7 +23,7 @@ test.describe('Test suite', () => {
     await page.getByRole('link', { name: 'Get started' }).click();
   
     // Expects page to have a heading with the name of Installation.
-    await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Fail Installation' })).toBeVisible();
   });
 
 });
