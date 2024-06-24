@@ -5,6 +5,9 @@ on:
       qase_api_base_url:
         description: 'Qase API URL'
         required: true
+      qase_report:
+        description: 'deprecated, use QASE_MODE instead'
+        required: true
       qase_project_code:
         description: 'Qase project code'
         required: true
