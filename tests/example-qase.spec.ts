@@ -4,7 +4,6 @@ import { qase } from 'playwright-qase-reporter';
 test.describe('Test suite', () => {
 
   test('has title', async ({ page }) => {
-    qase.id(14);
     qase.title('has title');
   
     await page.goto('https://playwright.dev/');
@@ -14,7 +13,6 @@ test.describe('Test suite', () => {
   });
 
   test('get started link', async ({ page }) => {
-    qase.id(15);
     qase.title('get started link');
 
     await page.goto('https://playwright.dev/');
